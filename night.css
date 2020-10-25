@@ -1,0 +1,401 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    animation: change 10s linear;
+    background-color: blue;
+}
+.moon{
+    height: 230px;
+    width: 230px;
+    background-color:transparent;
+    box-shadow: -20px 20px 10px 10px white;
+    border-radius: 50%;
+    float: left;
+    margin-left: 400px;
+    animation: opacity 10s linear;
+}
+@keyframes opacity{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: .5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.moon #s1{
+    float: left;
+    margin-left: -400px;
+}
+.moon #s2{
+    float: left;
+    margin-left: -350px;
+    margin-top:200px;
+}
+.moon #s3{
+    float: left;
+    margin-left: -300px;
+    margin-top: 50px;
+}
+.moon #s4{
+    float: left;
+    margin-left: -250px;
+    margin-top:150px;
+}
+.moon #s5{
+    float: left;
+    margin-left: -200px;
+    margin-top: 50px;
+}
+.moon #s6{
+    float: left;
+    margin-left: -150px;
+    margin-top:200px;
+}
+.moon #s7{
+    float: left;
+    margin-left: -100px;
+}
+.moon #s8{
+    float: left;
+    margin-left: -50px;
+    margin-top:150px;
+}
+.moon #s9{
+    float: left;
+    margin-left: 0px;
+}
+.moon #s10{
+    float: left;
+    margin-left: 50px;
+    margin-top:200px;
+}
+.moon #s11{
+    float: right;
+    margin-left: 100px;
+}
+.moon #s12{
+    float:right;
+    margin-right: 150px;
+}
+.moon #s13{
+    float:right;
+    margin-right: -200px;
+    margin-top: -200px;
+}
+.moon #s14{
+    float: right;
+    margin-right: -250px;
+}
+.moon #s15{
+    float:right;
+    margin-right: -300px;
+    margin-top: -150px;
+}
+.moon #s16{
+    float: right;
+    margin-right: -350px;
+}
+.moon #s17{
+    float:right;
+    margin-right: -400px;
+    margin-top: -200px;  
+}
+.moon #s18{
+    float:right;
+    margin-right: -500px;
+    margin-top: -100px;
+}
+.land{
+    height: 205px;
+    width: 100%;
+    background-color: yellowgreen;
+    margin-top: 250px;
+}
+.land #bench1{
+    float: left;
+    margin-left: 400px;
+    margin-top: -130px;
+}
+.land #bench2{
+    float: right;
+    margin-top: -50px;
+    margin-right: 100px;
+}
+.land #bench3{
+    float: left;
+    margin-top: -70px;
+    margin-left: -500px;
+}
+.land #street1{
+    float: left;
+    margin-top: -190px;
+    margin-left: -300px;
+}
+.land #street2{
+    float: left;
+    margin-top: -260px;
+    margin-left: 480px;
+    transform: scaleX(-1);
+}
+.land #street3{
+    float: left;
+    margin-top: -260px;
+}
+.land #street4{
+    float: right;
+    margin-top: -260px;
+    margin-right: -250px;
+}
+.land .bulb1{
+    float: left;
+    height: 10px;
+    width: 10px;
+    background-color: yellow;
+    margin-top: -225px;
+    margin-left: 16px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.land .bulb2{
+    float: left;
+    height: 8px;
+    width: 15px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: yellow;
+    margin-left: 435px;
+    margin-top: -205px;
+    transform: rotate(-10deg);
+}
+.land .bulb3{
+    float: left;
+    height: 8px;
+    width: 15px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: yellow;
+    margin-left: 555px;
+    margin-top: -205px;
+    transform: rotate(10deg);
+}
+.land .bulb4{
+    float: right;
+    height: 10px;
+    width: 10px;
+    background-color: yellow;
+    margin-top: -225px;
+    margin-right: -200px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.land #bird1{
+    float: left;
+    margin-left: 415px;
+    margin-top: -250px;
+    transform: scaleX(-1);
+}
+.land #bird2{
+    float: right;
+    margin-top: -250px;
+    margin-right: 190px;
+}
+.land #t1{
+    float: left;
+    margin-top: -150px;
+    margin-left: -50px;
+}
+.land #t2{
+    float: right;
+    margin-top:-200px;
+    margin-right: -250px;
+    transform: scaleX(-1);
+}
+.land #g1{
+    float: left;
+    margin-left: -150px;
+    margin-top: 10px;
+}
+.land #g2{
+    float: right;
+    margin-top: -20px;
+}
+.land #g3{
+    float: left;
+    margin-left: -400px;
+    margin-top: -30px;
+}
+.land #g4{
+    float:right;
+    margin-right: -350px;
+    margin-top: -60px;
+}
+.land #g5{
+    float: left;
+    margin-top:-120px ;
+    margin-left:10px;
+}
+.land #g6{
+    float: left;
+    margin-top:-120px ;
+    margin-left:120px;
+}
+.land #g7{
+    float: left;
+    margin-top: -140px;
+    margin-left: -30px;
+}
+.land #g8{
+    float: left;
+    margin-top: -70px;
+    margin-left: -300px;
+}
+.land #g9{
+    float: left;
+    margin-top: -70px;
+    margin-left: -200px;
+}
+.land #p1{
+    float: left;
+    margin-left: -200px;
+}
+.land #p2{
+    float: left;
+    margin-left: -500px;
+    animation: show 5s linear infinite;
+}
+.land #p3{
+    float: right;
+    margin-right: -250px;
+}
+@keyframes show{
+    100%{
+        transform: translateX(100px);
+    }
+}
+.land #l1{
+    float: left;
+    margin-left: -400px;
+    margin-top: -100px;
+    animation: fall 10s linear infinite;
+}
+.land #l2{
+    float: left;
+    margin-left: -350px;
+    margin-top: -100px;
+    animation: fall 10s linear infinite;
+}
+.land #l5{
+    float: right;
+    margin-right: -300px;
+    margin-top: -200px;
+    animation: down1 5s linear infinite;
+}
+.land #l6{
+    float: right;
+    margin-right: -350px;
+    margin-top: -120px;
+    animation: down2 5s linear infinite;
+}
+@keyframes fall{
+    0%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: translateY(80px);
+    }
+}
+.land #l3{
+    float: left;
+    margin-left: -400px;
+    margin-top: -0px;
+}
+.land #l4{
+    float: left;
+    margin-left: -350px;
+    margin-top: -0px;
+}
+@keyframes down1{
+    0%{
+        transform: rotate(270deg);
+}
+    100%{
+    transform: translateY(150px);
+}
+}
+@keyframes down2{
+    0%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: translateY(80px);
+    }
+}
+.land #o1{
+    float: left;
+    margin-left: -380px;
+    margin-top: -130px;
+}
+.land #o2{
+    float: right;
+    margin-right: -350px;
+    margin-top: -200px; 
+    transform: scaleX(-1);  
+}
+.land #h3{
+    float: left;
+    margin-top: -220px;
+    margin-left: 90px;
+    animation: blink3 2s linear infinite;
+}
+.land #h2{
+    float: left;
+    margin-top: -240px;
+    margin-left: 85px;
+    animation: blink2 3s linear infinite;
+}
+.land #h1{
+    float: left;
+    margin-top: -270px;
+    margin-left: 80px;
+    animation: blink1 4s linear infinite;
+}
+@keyframes blink1{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: .5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes blink2{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: .5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes blink3{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: .5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
